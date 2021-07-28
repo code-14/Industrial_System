@@ -3,11 +3,14 @@
 * It involves storing data from json input efficiently into mongodb and manipulating with the data stored to return the required data as mentioned in the query. 
 ## Problem Backgound
 * In an industrial system there are various types of devices such as sensors,equipments, controllers etc.
+<pre>
 * The hierarchy is as follows:
-** 1 Plant can contain multiple Equipments
-** 1 Equipment can contain multiple sensors.
-** Sensor is the lowest level.
-** An equipment uses a sensor in a bounded time range for e.g t1 to t2 for S1, t3 to t4 for S2 and so on.
+  1) 1 Plant can contain multiple Equipments
+  2) 1 Equipment can contain multiple sensors.
+  3) Sensor is the lowest level.
+  4) An equipment uses a sensor in a bounded time range for e.g t1 to t2 for S1, t3 to t4 for S2 and so on.
+</pre>
+
 ## Problem Statement
 * Required to built a data structure, class or a service than can store the data efficiently and handle the following operation:
 ```
