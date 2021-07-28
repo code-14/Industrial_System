@@ -4,7 +4,7 @@
 ## Problem Backgound
 * In an industrial system there are various types of devices such as sensors,equipments, controllers etc.
 <pre>
-* The hierarchy is as follows:
+The hierarchy is as follows:
   1) 1 Plant can contain multiple Equipments
   2) 1 Equipment can contain multiple sensors.
   3) Sensor is the lowest level.
